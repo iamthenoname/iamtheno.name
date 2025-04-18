@@ -39,8 +39,11 @@ params:
     enabled: true
     title: iamthenoname
     imageURL: "/me.png"
+    subtitle: "Hi! I go by 'noname' online. I have a passion for everything technology and in between. Dabbling with ROS2, Nix, Go, and Zig."
     
   socialIcons:
+    - name: email
+      url: "mailto:alabmelendres@tuta.io"
     - name: bluesky
       url: "https://bsky.app/profile/iamthenoname.bsky.social"
     - name: codeberg
