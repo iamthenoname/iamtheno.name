@@ -1,21 +1,21 @@
 baseURL: https://iamtheno.name
 defaultContentLanguage: en
 languageCode: en-us
-title: "iamthenoname's website"
+title: "iamthenoname"
 
 languages:
   en:
     languageName: "English"
-    title: "iamthenoname's website"
+    title: "iamthenoname"
     weight: 1
     params:
       description: "My personal corner of the web."
-  tp:
-    languageName: "toki pona"
-    title: "lipu pi jan Ala"
-    weight: 2
-    params:
-      description: "toki! lipu mi ni."
+  # tp:
+    # languageName: "toki pona"
+    # title: "lipu pi jan Ala"
+    # weight: 2
+    # params:
+      # description: "toki! lipu mi ni."
 
 title: iamthenoname
 theme: ["PaperMod"]
