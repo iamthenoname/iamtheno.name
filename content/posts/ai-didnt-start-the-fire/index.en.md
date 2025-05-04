@@ -3,8 +3,8 @@ title: "AI Didn't Start the Fire"
 author: 'iamthenoname'
 date: 2025-05-05T05:24:29+08:00
 draft: false
-summary:
-description:
+summary: Artist exploitation is timeless; blaming the latest algorithm misses the real enemy.
+description: Artist exploitation is timeless; blaming the latest algorithm misses the real enemy.
 tags: [ "artificial intelligence", "technology" ]
 images: [ "./cover.webp" ]
 ---

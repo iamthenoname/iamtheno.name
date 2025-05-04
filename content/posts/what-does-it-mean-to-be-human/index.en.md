@@ -3,8 +3,8 @@ title: 'What Does It Mean to Be Human?'
 author: 'iamthenoname'
 date: 2025-04-17T22:06:48+08:00
 draft: false
-summary: 'A long ramble about my childhood, technology, and artificial intelligence'
-description: 'A long ramble about my childhood, technology, and artificial intelligence'
+summary: 'A long ramble about my childhood, technology, and artificial intelligence.'
+description: 'A long ramble about my childhood, technology, and artificial intelligence.'
 tags: [ "artificial intelligence", "technology" ]
 images: [ "./cover.webp" ]
 ---
