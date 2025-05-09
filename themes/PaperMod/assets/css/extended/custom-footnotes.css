@@ -1,0 +1,98 @@
+/* Footnote Container */
+.footnote-container {
+    position: relative; /* Establishes a positioning context for the tooltip */
+    display: inline-block;
+}
+
+/* Footnote Tooltip - Desktop Style (No Pointer) */
+.footnote-tooltip {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the footnote reference */
+    left: 0; /* Default: Align left edge of tooltip with left edge of container */
+    margin-top: 2px; /* Small gap below the link */
+    padding: 10px 15px;
+    width: -moz-fit-content; 
+    width: fit-content; 
+    min-width: 320px;
+    max-width: 520px; 
+    background-color: var(--entry); /* Use theme variable */
+    color: var(--content); /* Use theme variable */
+    border: 1px solid var(--border); /* Use theme variable */
+    border-radius: 6px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    z-index: 1000;
+    font-size: 0.875em;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 0;
+    /* Removed CSS Vars for pointer */
+}
+
+/* POINTER RULES REMOVED */
+/* .footnote-tooltip::before { ... } */
+/* .footnote-tooltip::after { ... } */
+
+/* Right-aligned variant for tooltip body */
+.footnote-tooltip.tooltip-align-right {
+    left: auto; 
+    right: 0; 
+}
+
+/* POINTER RULES REMOVED for right-aligned */
+/* .footnote-tooltip.tooltip-align-right::before { ... } */
+/* .footnote-tooltip.tooltip-align-right::after { ... } */
+
+
+/* When the tooltip is shown by JS (especially for sticky state) */
+.footnote-tooltip.sticky-active {
+    display: block; /* Ensure it stays visible if JS made it sticky */
+}
+
+/* Ensure footnote links within the tooltip don't look like main content links if not desired */
+.footnote-tooltip a {
+    text-decoration: underline;
+}
+
+/* Styling for the footnote reference itself if needed */
+.footnote-container sup a {
+    text-decoration: none;
+}
+
+/* Mobile-specific styles for the tooltip */
+@media (max-width: 768px) {
+    .footnote-tooltip {
+        /* Inherits position: absolute from desktop */
+        /* Set near full width, JS will adjust horizontal position */
+        width: calc(
+            100vw - 30px
+        ); /* Fixed width: viewport minus 15px margins each side */
+        max-width: none; /* Override desktop max-width */
+        min-width: 0; /* Override desktop min-width */
+        padding: 10px 15px; /* Adjust padding if desired */
+        margin: 0; /* Reset potential desktop margins */
+        /* Reset transforms, left/right from desktop/alignment classes */
+        transform: none !important;
+        left: 0; /* JS will override this */
+        right: auto;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        z-index: 1000; /* Can increase if needed */
+        /* Do NOT set top/bottom here, JS handles vertical position */
+    }
+
+    /* Hide desktop pointers on mobile */
+    .footnote-tooltip::before,
+    .footnote-tooltip::after {
+        display: none !important;
+    }
+
+    /* Reset alignment classes on mobile */
+    .footnote-tooltip.tooltip-align-right {
+        left: 0; /* JS will override this */
+        right: auto;
+        transform: none !important;
+    }
+
+    /* Remove fixed positioning variant classes */
+    /* .footnote-tooltip.tooltip-show-mobile-top { ... } */
+}

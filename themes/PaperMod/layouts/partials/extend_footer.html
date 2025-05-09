@@ -1,3 +1,14 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+{{- /* Load custom footnotes script */ -}}
+{{- $footnotesJS := resources.Get "js/footnotes.js" -}}
+{{- if $footnotesJS -}}
+    {{- if not site.Params.assets.disableFingerprinting -}}
+        {{- $footnotesJS = $footnotesJS | fingerprint -}}
+        <script defer crossorigin="anonymous" src="{{ $footnotesJS.RelPermalink }}" integrity="{{ $footnotesJS.Data.Integrity }}"></script>
+    {{- else -}}
+        <script defer crossorigin="anonymous" src="{{ $footnotesJS.RelPermalink }}"></script>
+    {{- end -}}
+{{- end -}}
+
