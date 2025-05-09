@@ -1,25 +1,25 @@
 :root {
-    --theme: rgb(239, 241, 245);
-    --entry: rgb(230, 233, 239);
-    --primary: rgb(221, 120, 120);
-    --secondary: rgb(92, 95, 119);
-    --tertiary: rgba(0, 0, 106, 0.16);
-    --content: rgb(76, 79, 105);
-    --hljs-bg: #1c1d21;
-    --code-bg: #f5f5f5;
-    --border: rgb(220, 224, 232);
+    --theme: rgb(255, 255, 255); /* Pure White */
+    --entry: rgb(255, 255, 255); /* Pure White */
+    --primary: rgb(120, 94, 240); /* IBM Purple: #785ef0 */
+    --secondary: rgb(0, 0, 0);   /* Pure Black */
+    --tertiary: rgba(0, 0, 0, 0.1); /* Subtle transparent black */
+    --content: rgb(0, 0, 0);     /* Pure Black */
+    --hljs-bg: rgb(0, 0, 0);     /* Pure Black for code highlight background */
+    --code-bg: rgb(255, 255, 255); /* Pure White for general code background */
+    --border: rgb(0, 0, 0);      /* Pure Black */
 }
 
 .dark {
-    --theme: rgb(48, 52, 70);
-    --entry: rgb(69, 71, 90);
-    --primary: rgb(203, 166, 247);
-    --secondary: rgb(186, 194, 222);
-    --tertiary: rgba(1, 1, 5, 0.32);
-    --content: rgb(205, 214, 244);
-    --hljs-bg: #2e2e33;
-    --code-bg: rgb(17, 17, 27);
-    --border: rgb(88, 91, 112);
+    --theme: rgb(0, 0, 0);       /* Pure Black */
+    --entry: rgb(0, 0, 0);       /* Pure Black */
+    --primary: rgb(255, 176, 0); /* IBM Orange/Yellow: #ffb000 */
+    --secondary: rgb(255, 255, 255); /* Pure White */
+    --tertiary: rgba(255, 255, 255, 0.1); /* Subtle transparent white */
+    --content: rgb(255, 255, 255); /* Pure White */
+    --hljs-bg: rgb(255, 255, 255); /* Pure White for code highlight background */
+    --code-bg: rgb(0, 0, 0);     /* Pure Black for general code background */
+    --border: rgb(255, 255, 255); /* Pure White */
 }
 
 div.profile_inner span {
