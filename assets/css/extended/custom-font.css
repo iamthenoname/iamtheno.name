@@ -1,4 +1,100 @@
 @font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-ExtraLight.otf.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-ExtraLightIt.otf.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-Light.otf.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-LightIt.otf.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-Regular.otf.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-It.otf.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-Semibold.otf.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-SemiboldIt.otf.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-Bold.otf.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-BoldIt.otf.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-Black.otf.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/SourceSerif4/SourceSerif4-BlackIt.otf.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Martian Mono";
   src: url("/MartianMono/MartianMono-StdTh.woff2") format("woff2");
   font-weight: 100;
@@ -28,6 +124,12 @@
   font-weight: 400; /* Regular weight for narrow variant */
   font-style: normal;
   font-display: swap; /* Recommended for performance */
+}
+
+.source-serif-4-font-family {
+  font-family: "Source Serif 4", serif;
+  font-weight: 400; /* Default to regular weight */
+  font-style: normal;
 }
 
 .martian-mono-font-family {

@@ -567,11 +567,10 @@ she describes the basic building blocks of any system:
         balancing loop of public backlash, leading to stricter
         regulation that slows down their deployment.
 {{< figure
-    src="./figure-1.webp"
+    src="./figure-1.webp#center"
     alt="A stock and flow diagram illustrating a feedback loop. The diagram shows \"stocks\" or \"state of the system\" influenced by an \"inflow\" and \"outflow.\" A \"perceived state\" is derived from the stocks, and a \"discrepancy\" is calculated by comparing the perceived state to a \"goal.\" This discrepancy then influences either the inflow or outflow, creating a feedback loop to adjust the system\'s state towards the goal."
     caption="cool!"
-	width=300
-	align="center"
+    class="w-75"
 >}}
 
 ## Leverage points: where to intervene
@@ -630,7 +629,6 @@ for intervention:
     alt="This diagram illustrates Nabavi and Browne\'s framework for achieving transformative change through leverage points, organized in a pyramid with increasing potential for impact from top to bottom. The base \"Problem Domain\" leads to the \"Response Domain\" that encompasses four zones: the \"Purpose Zone\" for changing fundamental paradigms, mindsets, and goals; the \"Pathway Zone\" for redefining system design and rules; the \"Process Zone\" for altering societal and technical processes and feedback loops; and the \"Parameter Zone\" at the apex for adjusting numbers, constants, buffers, and stock structures. The pyramid emphasizes that interventions at lower zones offer greater leverage for profound and lasting transformation"
     src=./figure-2.webp
     class="big-image"
-	width=150%
 >}}
 
 This framework is not just an academic exercise; it's a diagnostic
@@ -858,7 +856,7 @@ trajectory?
 This shifts our focus to strategic action. The table below outlines
 high-impact interventions, drawing on concepts from the research. I
 highly recommend reading Nabavi and Browne's original paper
-[here](https://doi.org/10.48550/arXiv.2205.01070).
+[here](doi:10.48550/arXiv.2205.01070).
 
 | Intervention Strategy                   | Target Leverage Zone (Nabavi & Browne)   | Description & Supporting Research                                                                                                                                                                                                                                                   |
 |-----------------------------------------|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1105,7 +1103,6 @@ for the collective good.
 
 # A personal anecdote
 
-{{< special-serif >}}
 As a developer and part-time writer, my own journey with these tools
 reflects the complexities I've outlined. Like many, I approached LLMs
 with deep reservations, concerned they might undermine my own
@@ -1144,5 +1141,3 @@ systemic devaluing of the very human labor that gives creative work its
 meaning. The defense of this process is not Luddism; it is a necessary
 pushback against a system that increasingly seeks to abstract away the
 human element from value creation.
-
-{{< /special-serif >}}

@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .post-content {
+	border-left-style: dashed;
+	border-left-width: 4px;
+	border-right-width: 4px;
+	border-right-style: dashed;
+	border-right-color: #666666;
+	border-left-color: #666666;
+	padding-left: 16px;
+	padding-right: 16px;
+    }
+}
+
+.post-content h1::before {
+    content: "λ ";
+}
+
+.post-content h2::before {
+    content: "> ";
+}
+
+.special-serif {
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+}
+

@@ -1,0 +1,8 @@
+.post-content {
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-right-width: 4px;
+	border-right-style: solid;
+	padding-left: 16px;
+	padding-right: 16px;
+}
