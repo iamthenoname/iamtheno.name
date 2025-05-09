@@ -112,7 +112,7 @@
 
 @font-face {
   font-family: "Martian Grotesk";
-  src: url("/MartianGrotesk/MartianGrotesk-StdxLt.woff2") format("woff2");
+  src: url("/MartianGrotesk/MartianGrotesk-StdXLt.woff2") format("woff2");
   font-weight: 200; /* ExtraLight weight */
   font-style: normal;
   font-display: swap; /* Recommended for performance */
@@ -148,14 +148,14 @@
   font-style: normal;
 }
 
-@font-face {
+.martian-mono-font-family {
   font-family: "Martian Mono", monospace;
   font-weight: 100; /* Corresponds to MartianMono-StdTh.woff2 */
   font-style: normal;
   /* Removed font-optical-sizing and font-variation-settings as these are static fonts */
 }
 
-@font-face {
+.martian-mono-bold {
   font-family: "Martian Mono", monospace;
   font-weight: 500; /* Corresponds to MartianMono-StdMd.woff2 */
   font-style: normal;
@@ -168,37 +168,13 @@ body {
 }
 
 div.toc div.inner {
-  font-family: "Martian Grotesk Narrow", sans-serif; /* Use Martian Grotesk */
+  font-family: "Martian Grotesk", sans-serif; /* Use Martian Grotesk */
   font-weight: 400; /* Regular weight */
 }
 
 div.post-content {
-  font-family: "Martian Grotesk Narrow"; /* Apply narrow Grotesk to post content */
-  font-weight: 300; /* Regular weight */
-}
-
-div.post-content h1 {
-    font-size: 2rem;
-}
-
-div.post-content h2 {
-    font-size: 1.5rem;
-}
-
-div.post-content h3 {
-    font-size: 1.25rem;
-}
-
-@media (max-width: 768px) {
-    div.post-content {
-	font-size: 16px;
-    }
-
-    div.post-content h1 {
-	font-size: 1.75rem;
-    }
-    div.post-content h2 { font-size: 1.375rem; }
-    div.post-content h3 { font-size: 1.125rem; }
+  font-family: "Martian Grotesk Narrow", sans-serif; /* Apply narrow Grotesk to post content */
+  font-weight: 400; /* Regular weight */
 }
 
 div.post-content h1,

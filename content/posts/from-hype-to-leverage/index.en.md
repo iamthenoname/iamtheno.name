@@ -16,7 +16,7 @@ this very article with assistance from multiple LLMs---Gemini 2.5 Pro,
 Claude Sonnet 4, Deepseek R1, and GPT-4o---as a practical exercise in
 the human-in-the-loop leverage I aim to explore. And it's not just me
 who's been using it more; LLM use has skyrocketed, embedding itself
-into many people's daily rouines. Students are now using it to skip
+into many people's daily routines. Students are now using it to skip
 homework entirely. People are using it for emails they can't be
 bothered to write themselves. Many software developers are heavily
 integrating code completion and agentic LLMs into their workflow. Novel
@@ -342,12 +342,7 @@ automating lobbying efforts at a scale that overwhelms democratic
 debate. It doesn't need a robot army if it can control the flow of
 capital and the letter of the law.
 
-Yet even this informational coup runs headlong into the immense friction
-of human social and political systems. A silent takeover would require
-the AI to overcome barriers that are not about resources, but about
-relationships, trust, and power. For this strategy to work, the AI would
-need to:
-
+One might argue that a purely informational attack—manipulating global markets, deploying hyper-personalized disinformation to sow chaos, or engineering social breakdowns—circumvents physical friction. This is a valid and serious concern, as the speed of information is far greater than the speed of manufacturing. However, even these scenarios collide with a different, but equally potent, form of systemic friction: social and institutional inertia. Financial markets have circuit breakers and are populated by irrational, unpredictable human actors. Disinformation campaigns clash with deep-seated cultural beliefs and trigger societal immune responses. A 'silent takeover' of our institutions would still have to navigate the messy, trust-based, and often illogical realities of human power, loyalty, and bureaucracy. The friction is still there; it’s just social, not physical. For this strategy to work, the AI would need to:
 -   ****Reconcile competing values to build political consensus****,
     reframing "optimal" policies to be seen not as biased directives,
     but as viable compromises that align with the interests of opposing
@@ -1000,11 +995,7 @@ slow, bureaucratic, and quickly outpaced by agile private labs. This
 critique, however, ignores historical precedent. Ambitious public R&D
 projects like ARPANET and the Human Genome Project were not failures of
 bureaucracy; they were triumphs of public investment that created the
-platforms upon which private innovation then flourished. To succeed, a
-modern public AI initiative would need to be structured not as a typical
-government agency, but as an independent, multi-stakeholder entity,
-insulated from short-term political whims---much like a central bank or
-national research foundation. Funding could even be sourced
+platforms upon which private innovation then flourished. To succeed, a modern public AI initiative would need to be structured not as a typical government agency prone to rigid, top-down control, but as an agile, independent, multi-stakeholder entity. Funding could even be sourced
 systemically, perhaps through a tax on commercial AI compute that
 exceeds the universal token rate, creating a feedback loop where the
 commercial ecosystem helps fund the public-good infrastructure that
@@ -1015,11 +1006,13 @@ holds it accountable.
 The immediate reaction to proposals like these is to catalogue their
 impracticalities. How could a universal token rate possibly be enforced
 across sovereign nations? Wouldn't a public utility for AI be
-hopelessly outmaneuvered by agile private labs? These questions of
+hopelessly outmaneuvered by agile private labs? Implementing these interventions requires confronting the powerful, interlocking systems that benefit from the status quo: nation-state competition for geopolitical advantage, a venture capital model predicated on exponential returns, and a tech lobby that has mastered the art of regulatory capture. Indeed, this political and economic inertia is not an obstacle to these ideas; it is the very target they are designed to confront. The purpose of these proposals is not merely to be technically sound, but to serve as rallying points for the political coalitions needed to challenge this status quo and prove that alternative futures are possible.
+
+These questions of
 feasibility are valid, but to get bogged down in them at this stage is
 to miss the point entirely. These are not intended as shovel-ready
 blueprints. They are provocations, designed to shatter the
-conversational stalemate that defines the AI debate.
+conversational stalemate that defines the AI debate. The very existence of these powerful headwinds is not a reason to dismiss these proposals as naive; it is the core justification for them.
 
 For too long, the discourse has been trapped in a sterile binary,
 offering only two paths forward:
@@ -1042,7 +1035,7 @@ equity* and *systemic pacing*. The point of a "Public Utility Model"
 is not to design the perfect bureaucracy, but to establish that there
 are alternatives to a future defined entirely by commercial incentives.
 
-These proposals are tools to shift the Overton Window. They provide a
+These proposals are tools to shift the [Overton window](https://en.wikipedia.org/wiki/Overton_window). They provide a
 vocabulary to talk about what we actually want to talk about: the rules,
 the power structures, and the ultimate purpose of the systems we are
 building. They are a demand to move the debate from a simple "yes or
@@ -1094,7 +1087,7 @@ For those of us in the "messy middle," this framework offers a way
 forward. It validates our intuition that reality is more complicated
 than the loudest voices claim, and it equips us with the tools to act
 with deliberate purpose. We are not indecisive spectators in a battle
-between two extremes. We are the system's essential immune response,
+between two extremes. This is not an invitation to a comfortable ideological position, but a call to a difficult functional role: we are the system's essential immune response,
 the pragmatic architects of a more considered future. The challenge
 ahead is not to predict what AI will do to us, but to decide what we
 want it to do *for* us, and then to courageously build the social,
