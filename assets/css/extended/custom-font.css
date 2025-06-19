@@ -210,3 +210,15 @@ div.post-content h6 {
   font-family: "Martian Mono", monospace; /* Revert headings to Martian Mono */
   font-weight: 500; /* Assuming headings should be bold, using the 500 weight */
 }
+
+div.post-content a[href^="http"] {
+    text-decoration: underline;
+    box-shadow: 0 0;
+  text-decoration-skip-ink: auto; /* Default in most browsers now */
+}
+
+
+div.post-content a::after {
+    content: " ↗";
+}
+    

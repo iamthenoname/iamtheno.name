@@ -7,6 +7,11 @@ tags: [ "artificial intelligence", "systems thinking" ]
 ShowTOC: true
 ---
 
+# Preface
+I am approaching the AI debate from a different perspective than is typical in current discussions: that of systems thinking, as developed by Donella Meadows. I believe this model, which focuses on stocks, flows, and feedback loops, offers a valuable complementary lens for understanding AI's integration into our world.
+
+I want to be clear that this analysis does not dismiss the core technical alignment problem. A common and powerful argument is that a sufficiently advanced superintelligence could solve for political and social friction as easily as it solves for protein folding. In that view, the 'systemic' barriers I discuss are not fundamental. This essay explores an *alternative* hypothesis: that these human-system barriers are of a different kind and represent a more immediate and persistent bottleneck than pure intelligence scaling. My aim is to analyze the current trajectory of AI within our existing socio-technical systems and to identify leverage points for intervention that are available to us now. 
+
 # Introduction
 
 Artificial intelligence, specifically LLMs, have become a core part of
@@ -561,10 +566,11 @@ she describes the basic building blocks of any system:
         become more powerful and disruptive, they can trigger a
         balancing loop of public backlash, leading to stricter
         regulation that slows down their deployment.
+		
 {{< figure
     src="./figure-1.webp"
-    alt="A stock and flow diagram illustrating a feedback loop. The diagram shows \"stocks\" or \"state of the system\" influenced by an \"inflow\" and \"outflow.\" A \"perceived state\" is derived from the stocks, and a \"discrepancy\" is calculated by comparing the perceived state to a \"goal.\" This discrepancy then influences either the inflow or outflow, creating a feedback loop to adjust the system\'s state towards the goal."
-    caption="cool!"
+    caption="A stock and flow diagram illustrating a feedback loop. The diagram shows \"stocks\" or \"state of the system\" influenced by an \"inflow\" and \"outflow.\" A \"perceived state\" is derived from the stocks, and a \"discrepancy\" is calculated by comparing the perceived state to a \"goal.\" This discrepancy then influences either the inflow or outflow, creating a feedback loop to adjust the system\'s state towards the goal. Based on diagram from [Leverage Points: Places to Intervene in a System](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system)"
+    alt="A feedback loop where system state is adjusted via inflows and outflows based on the discrepancy between a goal and perceived state."
 	width=300
 	align="center"
 >}}
@@ -589,8 +595,8 @@ capable of creating true transformation.
 ## From leverage points to leverage zones
 
 Researchers in Responsible AI have brilliantly adapted this framework to
-our current moment. In their paper, "Five Ps: Leverage Zones towards
-Responsible AI," Ehsan Nabavi and Chris Browne group Meadows' twelve
+our current moment. In their paper, "[Five Ps: Leverage Zones towards
+Responsible AI](https://arxiv.org/abs/2205.01070)," Ehsan Nabavi and Chris Browne group Meadows' twelve
 points into four distinct ****Leverage Zones****, providing a clear map
 for intervention:
 
@@ -622,7 +628,9 @@ for intervention:
     entire system.
 
 {{< figure
-    alt="This diagram illustrates Nabavi and Browne\'s framework for achieving transformative change through leverage points, organized in a pyramid with increasing potential for impact from top to bottom. The base \"Problem Domain\" leads to the \"Response Domain\" that encompasses four zones: the \"Purpose Zone\" for changing fundamental paradigms, mindsets, and goals; the \"Pathway Zone\" for redefining system design and rules; the \"Process Zone\" for altering societal and technical processes and feedback loops; and the \"Parameter Zone\" at the apex for adjusting numbers, constants, buffers, and stock structures. The pyramid emphasizes that interventions at lower zones offer greater leverage for profound and lasting transformation"
+	align="center"
+    alt="A leverage points pyramid showing deeper change potential from adjusting paradigms and goals at the base to tweaking parameters at the top."
+    caption="This diagram illustrates Nabavi and Browne\'s framework for achieving transformative change through leverage points, organized in a pyramid with increasing potential for impact from top to bottom. The base \"Problem Domain\" leads to the \"Response Domain\" that encompasses four zones: the \"Purpose Zone\" for changing fundamental paradigms, mindsets, and goals; the \"Pathway Zone\" for redefining system design and rules; the \"Process Zone\" for altering societal and technical processes and feedback loops; and the \"Parameter Zone\" at the apex for adjusting numbers, constants, buffers, and stock structures. The pyramid emphasizes that interventions at lower zones offer greater leverage for profound and lasting transformation. Based on diagram from [Five Ps: Leverage Zones towards Responsible AI](https://arxiv.org/pdf/2205.01070)"
     src=./figure-2.webp
     class="big-image"
 	width=150%
@@ -878,10 +886,60 @@ principles of "meaningful human control" or "participatory
 goal-setting" are vital, what might interventions at these higher
 leverage points actually look like?
 
+To move from critique to construction, the following sections will explore three high-leverage, structural proposals designed to reshape the systems governing AI. While each is detailed further on, they are founded on the following core ideas:
+
+*   **A Universal Token Rate:** To treat computational power not as an unlimited commodity, but as a governed public resource. This would establish a global cap on AI generation speed, enforcing a systemic pace that allows society and institutions to adapt.
+*   **A Global Data Commons:** To transform data from a private, corporate-owned asset into a public good. This involves creating a "CERN for data"—a non-profit, auditable archive that breaks data moats, democratizes development, and enables true safety verification.
+*   **A Public Utility Model for Foundational AI:** To shift the primary goal of developing core AI models from maximizing profit to advancing public welfare. This would reframe foundational AI as essential public infrastructure, stewarded by publicly-funded, open-source initiatives, much like the early internet (ARPANET).
+
 The following proposals are not meant as final blueprints, but as
 concrete examples of the kind of bold, structural changes we should be
 debating---interventions that target the system's rules and purpose,
-not just its parameters.
+not just its parameters. Naturally, they invite questions of feasibility and friction, which must be addressed head-on.
+
+### On feasibility and friction
+
+Before I present the proposals, I'd first like to address potential arguments to them. The immediate reaction to proposals like these is to catalogue their impracticalities. How could a universal token rate possibly be enforced
+across sovereign nations? How do you plan on overhauling decades worth of intellectual property laws and policies? Wouldn't a public utility for AI be
+hopelessly outmaneuvered by agile private labs? 
+
+This critique is not a flaw in the proposals; it is the entire point. Implementing these interventions requires confronting the powerful, interlocking systems that benefit from the status quo: nation-state competition for geopolitical advantage, a venture capital model predicated on exponential returns, and a tech lobby that has mastered the art of regulatory capture. Indeed, this political and economic inertia is not an obstacle to these ideas; it is the very target they are designed to confront. The purpose of these proposals is not merely to be technically sound, but to serve as rallying points for the political coalitions needed to challenge this status quo and prove that alternative futures are possible.
+
+These questions of
+feasibility are valid, but to get bogged down in them at this stage is
+to miss the point entirely. These are not intended as shovel-ready
+blueprints. They are provocations, designed to shatter the
+conversational stalemate that defines the AI debate. The very existence of these powerful headwinds is not a reason to dismiss these proposals as naive; it is the core justification for them.
+
+For too long, the discourse has been trapped in a sterile binary,
+offering only two paths forward:
+
+1.  **Moral rejection,** by boycotting, divesting, and urging to halt
+    development. While rooted in legitimate ethical concerns, this
+    position is politically untenable and unilaterally cedes the future
+    to those who will build this technology regardless.
+2.  **Technological inevitability,** and a faith-based belief that the
+    only way forward is to accelerate, trusting that market forces or an
+    emergent superintelligence will solve the profound social and
+    political problems we face.
+
+Both options are a form of abdication. The purpose of introducing
+radical, high-leverage ideas is to prove that a third path exists, one
+of deliberate, democratic, and structural governance. The value of
+debating a "Universal Token Rate" is not in perfecting its enforcement
+details, but in forcing us to have a conversation about *computational
+equity* and *systemic pacing*. The point of a "Public Utility Model"
+is not to design the perfect bureaucracy, but to establish that there
+are alternatives to a future defined entirely by commercial incentives.
+
+The goal is not to present a plan so perfect it bypasses systemic friction, which is an impossible task. The goal is to build a negotiating position that is solid, logical, and sound enough to withstand that friction. In a system where the game is already unfair, you don't win by playing by the existing rules. You create leverage.
+
+These proposals are tools to shift the [Overton window](https://en.wikipedia.org/wiki/Overton_window). They provide a
+vocabulary to talk about what we actually want to talk about: the rules,
+the power structures, and the ultimate purpose of the systems we are
+building. They are a demand to move the debate from a simple "yes or
+no" on the technology to a rich and contested discussion about the
+terms of its existence in our society.
 
 ### Proposal 1: A universal token rate
 
@@ -995,52 +1053,12 @@ slow, bureaucratic, and quickly outpaced by agile private labs. This
 critique, however, ignores historical precedent. Ambitious public R&D
 projects like ARPANET and the Human Genome Project were not failures of
 bureaucracy; they were triumphs of public investment that created the
-platforms upon which private innovation then flourished. To succeed, a modern public AI initiative would need to be structured not as a typical government agency prone to rigid, top-down control, but as an agile, independent, multi-stakeholder entity. Funding could even be sourced
+platforms upon which private innovation then flourished. To succeed, a modern public AI initiative would need to be structured not as a typical government agency prone to rigid, top-down control, but as an agile, independent, multi-stakeholder entityFunding could even be sourced
 systemically, perhaps through a tax on commercial AI compute that
 exceeds the universal token rate, creating a feedback loop where the
 commercial ecosystem helps fund the public-good infrastructure that
 holds it accountable.
 
-### On feasibility and friction
-
-The immediate reaction to proposals like these is to catalogue their
-impracticalities. How could a universal token rate possibly be enforced
-across sovereign nations? Wouldn't a public utility for AI be
-hopelessly outmaneuvered by agile private labs? Implementing these interventions requires confronting the powerful, interlocking systems that benefit from the status quo: nation-state competition for geopolitical advantage, a venture capital model predicated on exponential returns, and a tech lobby that has mastered the art of regulatory capture. Indeed, this political and economic inertia is not an obstacle to these ideas; it is the very target they are designed to confront. The purpose of these proposals is not merely to be technically sound, but to serve as rallying points for the political coalitions needed to challenge this status quo and prove that alternative futures are possible.
-
-These questions of
-feasibility are valid, but to get bogged down in them at this stage is
-to miss the point entirely. These are not intended as shovel-ready
-blueprints. They are provocations, designed to shatter the
-conversational stalemate that defines the AI debate. The very existence of these powerful headwinds is not a reason to dismiss these proposals as naive; it is the core justification for them.
-
-For too long, the discourse has been trapped in a sterile binary,
-offering only two paths forward:
-
-1.  **Moral rejection,** by boycotting, divesting, and urging to halt
-    development. While rooted in legitimate ethical concerns, this
-    position is politically untenable and unilaterally cedes the future
-    to those who will build this technology regardless.
-2.  **Technological inevitability,** and a faith-based belief that the
-    only way forward is to accelerate, trusting that market forces or an
-    emergent superintelligence will solve the profound social and
-    political problems we face.
-
-Both options are a form of abdication. The purpose of introducing
-radical, high-leverage ideas is to prove that a third path exists, one
-of deliberate, democratic, and structural governance. The value of
-debating a "Universal Token Rate" is not in perfecting its enforcement
-details, but in forcing us to have a conversation about *computational
-equity* and *systemic pacing*. The point of a "Public Utility Model"
-is not to design the perfect bureaucracy, but to establish that there
-are alternatives to a future defined entirely by commercial incentives.
-
-These proposals are tools to shift the [Overton window](https://en.wikipedia.org/wiki/Overton_window). They provide a
-vocabulary to talk about what we actually want to talk about: the rules,
-the power structures, and the ultimate purpose of the systems we are
-building. They are a demand to move the debate from a simple "yes or
-no" on the technology to a rich and contested discussion about the
-terms of its existence in our society.
 
 # Conclusion
 
