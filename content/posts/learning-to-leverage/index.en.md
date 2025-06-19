@@ -1,5 +1,5 @@
 ---
-title: "From Hype to Leverage: A Systems Thinking Guide to AI"
+title: "Learning to Leverage: Approaching AI through Systems Thinking"
 author: iamthenoname
 date: 2025-06-19T11:36:51+08:00
 draft: false
