@@ -1,0 +1,16 @@
+{{- if .Params.series }}
+{{- $series := index .Params.series 0 }}
+<div class="series-box" style="background: var(--entry); border-left: 4px solid var(--primary); padding: 1rem; margin: 2rem 0; border-radius: 8px;">
+  <p style="margin-top: 0;">This article is part of a series:</p>
+  <h3 style="margin-top: 0;">{{ $series }}</h3>
+  <ol style="margin-bottom: 0; margin-left: 12px;">
+    {{- range (where .Site.RegularPages "Params.series" "intersect" .Params.series).ByDate }}
+    {{- if eq .Permalink $.Permalink }}
+    <li><strong>{{ .Title }}</strong> (current)</li>
+    {{- else }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</div>
+{{- end }}

@@ -41,8 +41,11 @@
 {{- $pages := union .RegularPages .Sections }}
 
 {{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- else if eq .Data.Plural "series" }}
+  {{/* This sorts the posts within a specific series from oldest to newest */}}
+  {{- $pages = $pages.ByDate }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
