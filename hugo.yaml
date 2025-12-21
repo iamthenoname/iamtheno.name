@@ -1,7 +1,7 @@
 baseURL: https://iamtheno.name
 defaultContentLanguage: en
 languageCode: en-us
-title: "iamthenoname"
+# title: "iamthenoname"
 
 languages:
   en:

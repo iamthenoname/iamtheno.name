@@ -142,6 +142,44 @@
   font-display: swap; /* Recommended for performance */
 }
 
+/* Bold */
+@font-face {
+  font-family: "Martian Grotesk";
+  src: url("/MartianGrotesk/MartianGrotesk-StdBd.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Extra Bold / Black */
+@font-face {
+  font-family: "Martian Grotesk";
+  src: url("/MartianGrotesk/MartianGrotesk-StdBl.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Martian Grotesk Narrow --- */
+
+/* Narrow Bold */
+@font-face {
+  font-family: "Martian Grotesk Narrow";
+  src: url("/MartianGrotesk/MartianGrotesk-NrBd.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Narrow Extra Bold */
+@font-face {
+  font-family: "Martian Grotesk Narrow";
+  src: url("/MartianGrotesk/MartianGrotesk-NrBl.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 .source-serif-4-font-family {
   font-family: "Source Serif 4", serif;
   font-weight: 400; /* Default to regular weight */
@@ -174,7 +212,7 @@ div.toc div.inner {
 
 div.post-content {
   font-family: "Martian Grotesk Narrow"; /* Apply narrow Grotesk to post content */
-  font-weight: 300; /* Regular weight */
+  /* font-weight: 300; /* Regular weight */ */
 }
 
 div.post-content h1 {
